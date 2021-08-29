@@ -1,0 +1,23 @@
+.navBar{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: silver;
+    .scroll{
+        height: 1rem;
+        // background-color:pink;
+        border: .1rem solid silver;
+        .innerScroll{
+            background-color: blue;
+            height: 100%;
+            // width: 10%;
+        }
+    }  
+}
+
+div{
+    font-size: 10rem;
+}
